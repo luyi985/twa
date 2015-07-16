@@ -131,9 +131,14 @@ h4{
 }
 
 #lightBox.complete #percentage:after{
-	content: url(../images/tick.png);
-	display: inline-block;
-	margin-left: 5px;
+	content: "";
+  	display: inline-block;
+  	background-image: url(../images/tick.png);
+  	margin-left: 5px;
+  	width: 10px;
+  	height: 10px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 #lightBox .body #percentage{
 	font-size: 14px;
